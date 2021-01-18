@@ -1,0 +1,10 @@
+:root {
+    --nail: 5;
+}
+
+#container {
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(var(--nail), 40px);
+    grid-template-rows: repeat(var(--nail), 40px);
+}
